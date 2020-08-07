@@ -1,0 +1,4 @@
+as86 hello.s -o hello.o -u -w -0 -n hello.s
+
+
+ld86 -o hello.com -y -d -T100 -L/usr/lib/bcc -0 -C0 hello.o -ldos
